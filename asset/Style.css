@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;   
+}
+ /* Home  */
+
+ .home{
+     height: 538px;
+     background-image: url(image/back.jpg);
+     background-size: cover;
+     background-position: 50%;
+     position: relative;
+ }
+ .home p {
+
+    position: absolute;
+    left: 43%;
+    top: 45%;
+    font-size: 35PX;
+    color: white;
+ }
+ .home p span{
+
+    background-color: rgba(0, 0, 0, 0.438);
+    padding: 10px;
+ } 
+
+
+ /* End home section */
+
+
+
+ /* Projects section  */
+
+ .projects , .about , .employee ,.contact{
+     padding: 15px;
+     max-width: 100vw;
+ }
+
+ .titleSection{
+     border-bottom: 1px solid gray;
+     padding: 8px;
+ }
+ .projects .cardSection .card , .employee  .cardSection .card{
+     position: relative;
+     margin: 20px 0;
+     width: 50%;
+ }
+ .projects .cardSection , .employee  .cardSection {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     width: 100%;
+     margin: 0 40px;
+ }
+ .projects .cardSection .card p{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    background-color: black;
+    padding: 15px;
+    color: white;
+ }
+
+
+  /* End Projects section */
+
+
+
+ /* About section  */
+
+ .about p{
+     margin: 20px 0;
+     text-align: justify;
+ }
+
+
+
+  /* End About section */
+
+
+  
+/* Employee section */
+
+.employee .cardSection .card .info{
+width: 75%;
+}
+.employee .cardSection .card .info ,
+.employee .cardSection .card .name ,
+.employee .cardSection .card .jobDescription ,
+.employee .cardSection .card button {
+
+    margin: 5px 0;
+
+}
+.employee .cardSection .card button{
+    width: 75%;
+    border: none;
+    height: 40px;
+}
+
+.employee .cardSection .card .name {
+
+    font-size: 20px;
+}
+
+.employee .cardSection .card .jobDescription{
+
+    color: rgb(128, 128, 128);
+}
+
+
+
+/*End Employee section */
+
+
+
+/* contact section */
+
+
+.contact input {
+    width: 100%;
+    height: 30px;
+    margin: 8px 0px;
+   
+}
+.contact button{
+
+
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 8px;
+    width:80px ;
+    height: 30px;
+    margin: 8px 0px;
+}
+
+
+/*End contact section */
+
+
+/* footer section */
+
+.footer {
+
+    background-color: black;
+    color: white;
+    max-width: 100%;
+    height: 50px;
+    
+}
+.footer p{
+    
+    text-align: center;
+  
+}
+.footer p span{
+    color: yellow;
+}
